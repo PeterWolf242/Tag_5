@@ -1,0 +1,11 @@
+section {
+  background-image: url('../img/bg_blue.avif');
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+article {
+  background-image: url('../img/wall.avif');
+  background-position: top right;
+}

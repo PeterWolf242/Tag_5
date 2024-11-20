@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  text-align: center;
+}
+
+#”layout” {
+  background-color: #f1f1f1;
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#”layout” .left {
+  text-align: left;
+}
+
+#”layout” .right {
+  text-align: right;
+}
+
+#”layout” button {
+  background-color: lightblue;
+  padding: 5px 15px;
+  border: 1px solid green;
+}

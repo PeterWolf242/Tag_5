@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  margin: 1rem auto;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+div div {
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+}
+
+div div:nth-of-type(1) {
+  background-color: cadetblue;
+}
+
+div div:nth-of-type(2) {
+  background: url('../img/sunset.webp') no-repeat;
+  background-size: cover;
+}
+
+div div:nth-of-type(2) p {
+  color: whitesmoke;
+}
+
+div div:nth-of-type(3) {
+  background: linear-gradient(45deg, gold, red);
+}
+
+div div:nth-of-type(4) {
+  background: radial-gradient(gold 30%, black 80%);
+}
+
+div div:nth-of-type(5) {
+  background: conic-gradient(rgb(9, 187, 47) 30%, rgb(212, 210, 210) 80%);
+}

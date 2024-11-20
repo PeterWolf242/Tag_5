@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat.ttf');
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+}
+
+:root {
+  --color_lila_light: #a020f0;
+  --color_tuerkis: #00bfff;
+  --color_green_light: #32cd32;
+  --color_rose: #c71585;
+  --color_tuerkis_light: #00ced1;
+  --color_lila_dark: #483d8b;
+  --color_green_dark: #2e8b57;
+  ----color_black: #000000;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h3::first-letter {
+  font-size: 2rem;
+  color: var(--color_green_dark);
+}
+
+ul {
+  margin-left: 3rem;
+}
+
+ul li {
+  font-size: 1rem;
+}
+
+ul li::first-letter {
+  font-size: 3rem;
+}
+
+ul li:nth-of-type(1)::first-letter {
+  color: var(--color_tuerkis);
+  border-top: 4px solid var(--color_tuerkis);
+}
+
+ul li:nth-of-type(2)::first-letter {
+  color: var(--color_lila_light);
+  border-bottom: 4px solid var(--color_lila_light);
+}
+
+ul li:nth-of-type(3)::first-letter {
+  color: var(--color_green_light);
+}
+
+ul li:nth-of-type(3) {
+  text-decoration: line-through;
+}
+
+section p:nth-of-type(1) {
+  text-indent: 3rem;
+  font-size: 1.25rem;
+}
+
+section p:nth-of-type(2),
+section p:nth-of-type(4) {
+  font-size: 1.6rem;
+}
+
+section p:nth-of-type(2)::first-line,
+section p:nth-of-type(3)::first-line,
+section p:nth-of-type(6)::first-line {
+  color: var(--color_green_dark);
+}
+
+section p:nth-of-type(2)::first-letter,
+section p:nth-of-type(3)::first-letter,
+section p:nth-of-type(4)::first-letter,
+section p:nth-of-type(5)::first-letter,
+section p:nth-of-type(6)::first-letter {
+  font-size: 2rem;
+  color: var(--color_rose);
+}
+
+section p:nth-of-type(3),
+section p:last-of-type {
+  font-size: 1.8rem;
+}
+
+section p:nth-of-type(5):last-line {
+  color: var(--color_black);
+}
